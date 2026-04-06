@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('1. checkout'){
       steps{
-        git url:'https://github.com/SupriyaPoojari/DockerB3', branch:'main'
+        git url:'https://github.com/SupriyaPoojari/DockerB3.git', branch:'main'
     }
   }
 
